@@ -9,8 +9,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Homepage />
       <ContactUsForm/>
+      <Homepage />
+      
       <Footer />
     </div>
   );
