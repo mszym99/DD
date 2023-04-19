@@ -6,9 +6,9 @@ import AboutUsHero from '../components/AboutUsHero/AboutUsHero'
 function AboutUs() {
   return (
     <div className="App">
-      
+      <Navbar/>
       <AboutUsHero />
-      
+      <Footer/>
     </div>
   )
 }

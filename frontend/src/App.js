@@ -1,4 +1,5 @@
 /*import Footer from "./components/Footer/Footer";*/
+import ContactUsForm from "./components/ContactUsForm/ContactUsForm";
 import Footer from "./components/Footer/Footer";
 import Homepage from "./components/Homepage/Homepage";
 import Navbar from "./components/Navbar/Navbar"; 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Homepage />
+      <ContactUsForm/>
       <Footer />
     </div>
   );

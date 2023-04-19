@@ -1,0 +1,37 @@
+
+.about-us{
+   width: 100%;
+   padding: 78px 0px;
+   background-color: #121212;
+}
+
+.about-us img{
+    height: auto;
+    width: 420px;
+}
+
+.about-us-text{
+    width: 550px;
+}
+
+.about-us-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-us-text h1{
+    color:#fcfcfc;
+    font-size: 80px;
+    text-transform: capitalize;
+}
+.about-us-text h5{
+    color: #fcfcfc;
+    font-size: large;
+}
+.about-us-text p{
+    color: #fcfcfc;
+}

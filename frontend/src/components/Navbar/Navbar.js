@@ -13,7 +13,7 @@ function Navbar() {
     return(
         <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className='logo'>
-                <h2>Dynamic Detailing</h2>
+                <Link to='/'><h2>Dynamic Detailing</h2></Link>
             </div>
             <ul className='nav-menu'>
                 <li><Link to='/about-us'>About Us</Link></li>
