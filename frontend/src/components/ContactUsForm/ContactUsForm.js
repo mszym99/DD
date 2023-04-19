@@ -19,9 +19,14 @@ function ContactUsForm() {
                             
                         </div>
                         <div class="form-group">
+                            <label for="exampleInputName1">Your Phone Number</label>
+                            <input type='phone' className='"form-text' name='phone' placeholder='Enter Phone Number'/>
+                            
+                        </div>
+                        <div class="form-group">
                             <label for="exampleInputEmail1">Your Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            
                         </div>
                         <div class="form-check">
                             <input type="textarea" class="form-check-input" id="exampleCheck1" placeholder='Message'/>  
