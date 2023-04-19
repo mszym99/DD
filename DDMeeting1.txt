@@ -1,0 +1,13 @@
+
+Navbar:
+	About us: look at ryans drawing 2 pictures information about each other
+	Testimonials: pictures and customer reviews dynamic
+	
+Homepage:
+	Lead straight to the good stuff. Rates, options, opportunities
+	Big Logo as background transparent
+
+Footer:
+	Contact Us Column, Social Media Column inch or closer seperation
+	Bottom left corner Dynamic detailing est 
+

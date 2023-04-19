@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {HiOutlineMenuAlt4, HiOutlineMail} from 'react-icons/hi'
 import {FaFacebook, FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa'
 import {MdRateReview} from 'react-icons/md'
+import {Link, Switch} from 'react-router-dom'
 
 import './NavbarStyles.css'
 
@@ -15,9 +16,9 @@ function Navbar() {
                 <h2>Dynamic Detailing</h2>
             </div>
             <ul className='nav-menu'>
-                <li>About Us</li>
-                <li>Client Reviews</li>
-                <li>Contact Us</li>
+                <li><Link to='/about-us'>About Us</Link></li>
+                <Link to ='/client-reviews'><li>Client Reviews</li></Link>
+                <Link to ='/contact-us'><li>Contact Us</li></Link>
             </ul>
             <div className='nav-icons'>
                 <HiOutlineMail className='icon' style={{marginRight: '1rem'}}/>
