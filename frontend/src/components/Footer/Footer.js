@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer-links'>
             
                 <div className='footer-link-items'>
-                    <h2>Contact Us</h2>
+                    <h2>Contact Us Now</h2>
                     <a href='/'>509-795-4943</a>
                     <a href='/'>dynamicdetailingofficial@gmail.com</a>
                 </div>

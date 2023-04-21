@@ -46,6 +46,9 @@ button{
     cursor: pointer;
     font-family:  'Poppins', sans-serif;
 }
+button:hover{
+    color: #6DA9E4;
+}
 
 @media screen and (max-width:940px) {
     h1{

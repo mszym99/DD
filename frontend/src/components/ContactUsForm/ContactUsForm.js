@@ -5,14 +5,11 @@ function ContactUsForm() {
     <div className='form-area' style={{float:'right', position:'relative'}}>
         <div className='container'>
             <div className='row'>
-                <div className='col'>
-                    <div className='left'>
-                        <h2><span>Contact Us For</span> <br></br>Business Inquries</h2>
-                    </div>
-                </div>
+                
                 <div className='col'>
                     <div className='right'>
-                        
+                        <h2 className='text-big' font-size=''>Contact Us</h2>
+                        <br></br>
                     <form>
                         <div class="form-group">
                             <label for="exampleInputName1">Your Name</label>
@@ -31,8 +28,9 @@ function ContactUsForm() {
                         </div>
                         <div class="form-group">
                             <label for="exampleInputName1">Message</label>
-                            <textarea class="form-control" id="exampleCheck1" rows="5" cols="50" placeholder='Message'></textarea>                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                            <textarea class="form-control" id="exampleCheck1" rows="10" style={{width: '100%', height: '150px'}} placeholder='Message'></textarea>
+                       </div>
+                        <button type="submit" className="btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>

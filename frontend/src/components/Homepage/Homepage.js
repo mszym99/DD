@@ -8,10 +8,12 @@ function Homepage() {
                 <div class="box-main">
                     <div class="firstHalf">
                         <h1 class="text-big">
-                            Our Mission: To Serve You with the best detailing services in the PNW
-                        </h1>
-                        <p class="text-small">
-                        Dynamic Detailing, a local business based in Liberty Lake, Washington, that provides power washing services for garbage cans, concrete, and other items that need detailing. Their team of professionals is committed to delivering the best service to their customers within the Pacific Northwest region.                        </p>
+                        Transform Your Property with Our Expert Power Washing Services                        </h1>
+                        <ul>
+                            <li>Garbage can cleaning: Our team uses state-of-the-art equipment to clean and sanitize your garbage cans, eliminating foul odors and harmful bacteria.</li>
+                            <li>Our power washing services can remove years of grime, dirt, and stains from your concrete surfaces, leaving them looking like new.  </li>
+                            <li>Affordable pricing: We offer competitive pricing for all of our services, so you can enjoy a cleaner and more beautiful space without breaking the bank.</li>
+                        </ul>
                     </div>
                 </div>
     </section>

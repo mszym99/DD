@@ -3,9 +3,11 @@ import rose from '../../assets/images/rose.jpg'
 import './AboutUsHero.css'
 function AboutUsHero() {
   return (
+        
         <section className='about-us'>
             
             <div className='about-us-main'>
+                
                 <img src={rose} alt='rose'></img>
                 <div className='about-us-text'>
                     <h1>Zachary</h1>

@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <ContactUsForm/>
       <Homepage />
-      
       <Footer />
     </div>
   );

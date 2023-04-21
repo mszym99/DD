@@ -1,0 +1,14 @@
+.vision-bar {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #121212;
+    padding: 0 20px;
+    color: #f5f5f5;
+    border-bottom: 1px solid #6DA9E4;
+  }
+  
+  
