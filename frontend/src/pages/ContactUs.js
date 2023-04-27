@@ -7,7 +7,7 @@ function ContactUs() {
   return (
     <div className="App">
       <Navbar/>
-      <ContactUsForm/>
+      <ContactUsForm className='contactUsHero'/>
       <BasicText/>
       <Footer/>
     </div>

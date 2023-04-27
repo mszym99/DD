@@ -2,7 +2,7 @@ import React from 'react'
 import './BasicTextStyles.css'
 function BasicText() {
   return (
-    <div className='homepage-container'>
+    <div className='BigText-container'>
     <section class='section'>
         <div className='box-main'>
             <div className='firstHalf'>

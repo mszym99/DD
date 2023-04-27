@@ -3,7 +3,7 @@ import {HiOutlineMenuAlt4, HiOutlineMail} from 'react-icons/hi'
 import {FaFacebook, FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa'
 import {MdRateReview} from 'react-icons/md'
 import {Link, Switch} from 'react-router-dom'
-import DDlong from '../../assets/Dynamic_Detailing_R_loooong.png'
+import DDlongTransparent from '../../assets/DD_long_transparent-11.png'
 import './NavbarStyles.css'
 
 function Navbar() {
@@ -14,7 +14,7 @@ function Navbar() {
         <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className='logo'>
             <Link to='/'>
-                <img src={DDlong} width='350px' height= 'auto'alt='Dynamic Detailing'></img>
+                <img src={DDlongTransparent} width='350px' height= 'auto'alt='Dynamic Detailing'></img>
             </Link>
             </div>
             <ul className='nav-menu'>

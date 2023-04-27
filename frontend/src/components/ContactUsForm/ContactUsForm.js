@@ -3,7 +3,7 @@ import './ContactUsForm.css'
 function ContactUsForm() {
   return (
     <div className='form-area' style={{float:'right', position:'relative'}}>
-        <div className='container'>
+        <div className='containerContactForm'>
             <div className='row'>
                 
                 <div className='col'>

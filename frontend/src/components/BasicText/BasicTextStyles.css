@@ -7,15 +7,13 @@ html, body{
     box-sizing: border-box;
 }
 
-.homepage-container{
-    margin-top: 20px;
+.BigText-container{
+    padding-top: 0px;
     background-color: #121212;
     color: #fff;
 }
 
 .section {
-    margin: 0;
-    padding: 0;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -33,6 +31,7 @@ html, body{
 }
  .firstHalf ul{
     list-style: circle;
+    
 }
 
 .text-small{

@@ -1,41 +1,11 @@
-html, body{
-    margin: 0;
-    padding: 0;
+construction{
+    
 }
-
-*{
-    box-sizing: border-box;
-}
-
-.homepage-container{
-    margin-top: 20px;
-    background-color: #121212;
+h1 {
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
     color: #fff;
-}
-
-.section {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-.box-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-    margin: auto;
-    height: 80%;
-}
- .firstHalf ul{
-    list-style: circle;
-}
-
-.text-small{
-        padding-left: 20px;
-        padding-right: 20px;
+    background-color: #121212;
 }

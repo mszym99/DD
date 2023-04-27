@@ -8,10 +8,16 @@ html, body{
 }
 
 .homepage-container{
-    margin-top: 20px;
+    
     background-color: #121212;
     color: #fff;
+    padding-top: 20%; /* add some top padding */
+    padding-bottom: 30%; /* add some bottom padding */
+      
+      
+    
 }
+
 
 .section {
     margin: 0;
@@ -34,8 +40,21 @@ html, body{
  .firstHalf ul{
     list-style: circle;
 }
-
+.firstHalf h1{
+    
+    margin-bottom: -15%;
+}
 .text-small{
         padding-left: 20px;
         padding-right: 20px;
 }
+.text-big{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
