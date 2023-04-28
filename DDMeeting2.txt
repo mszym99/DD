@@ -5,6 +5,6 @@ About Us: Mission Vision Core values before HeroAboutUs component
 Homepage: Contact us with your Business Inquiries |||| Services w/ pricing
  	-Contact us via inquiry vs contact us now
 
-Remove Contact us from navbar
+Remove Contact us from navbar second thoughts...
 
 add gallery continue client reviews

@@ -76,7 +76,7 @@ li {
     .mobile-menu li {
         padding: 1.2rem 1rem;
         margin: 0 1rem;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #121212;
     }
 
     .mobile-nav {
@@ -89,12 +89,17 @@ li {
         padding: 1rem 0;
     }
 
-    .social-icons {
+.social-icons {
         display: flex;
         justify-content: space-around;
         margin: 2rem 0;
     }
-
+.social-icons-mobile-menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    color: #121212;
+}
     .social-icons .icon:hover {
         transform: scale(1.5);
         transition: 0.3s;
@@ -105,9 +110,12 @@ li {
         width: 90%;
     }
 
-
+    .navbar a{
+        color: #121212;
+    }
     .nav-menu {
         display: none;
+        color: #121212;
     }
 
     .nav-icons {

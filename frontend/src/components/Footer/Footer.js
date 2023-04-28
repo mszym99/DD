@@ -8,16 +8,16 @@ function Footer() {
             
                 <div className='footer-link-items'>
                     <h2>Contact Us Now</h2>
-                    <a href='/'>509-795-4943</a>
-                    <a href='/'>dynamicdetailingofficial@gmail.com</a>
+                    <a href="tel:+1-509-855-9255">509-855-9255</a>
+                    <a href='mailto:dynamicdetailingofficial@gmail.com'>dynamicdetailingofficial@gmail.com</a>
                 </div>
                 <div className='footer-link-items'>
                     <h2>Social Media</h2>
                     <div className='social-icons'>  
                         <FaInstagram classname='icon' onClick={()=> window.open('https://www.instagram.com/dynamicdetailingofficial/')}></FaInstagram>
-                        <FaYoutube classname='icon' onClick={()=> window.open('https://github.com/mszym99/DD')}></FaYoutube>
-                        <FaFacebook classname='icon' onClick={()=> window.open('https://www.facebook.com/DynamicDetailingOfficial')}></FaFacebook>
-                        <FaTiktok classname='icon' onClick={()=> window.open('https://github.com/mszym99/DD')}></FaTiktok>
+                        <FaYoutube classname='icon' onClick={()=> window.open('https://www.youtube.com/channel/UCYnR3hOx-kJSumWCLiKuN5w')}></FaYoutube>
+                        <FaFacebook classname='icon' onClick={()=> window.open('https://www.facebook.com/DynamicDetailingSpokane')}></FaFacebook>
+                        <FaTiktok classname='icon' onClick={()=> window.open('https://www.tiktok.com/@dynamicdetailingofficial')}></FaTiktok>
                     </div>
                 </div>
         </div>

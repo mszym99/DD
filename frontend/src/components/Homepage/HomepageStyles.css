@@ -11,8 +11,8 @@ html, body{
     
     background-color: #121212;
     color: #fff;
-    padding-top: 20%; /* add some top padding */
-    padding-bottom: 30%; /* add some bottom padding */
+    padding-top: 5%; /* add some top padding */
+    padding-bottom: 5%; /* add some bottom padding */
       
       
     
@@ -34,7 +34,7 @@ html, body{
     justify-content: center;
     align-items: center;
     max-width: 80%;
-    margin: auto;
+    margin: 10px;
     height: 80%;
 }
  .firstHalf ul{
@@ -53,8 +53,20 @@ html, body{
     padding-right: 20px;
     font-size: 30px;
 }
-img {
-    max-width: 100%;
-    height: auto;
+.homepageImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
+  .homepageImage img {
+    max-width: 50%;
+    max-height: 20%;
+  }
+  
+  @media screen and (max-width: 940px) {
+
+  }
+
+

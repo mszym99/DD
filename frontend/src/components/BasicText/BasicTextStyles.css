@@ -26,8 +26,7 @@ html, body{
     justify-content: center;
     align-items: center;
     max-width: 80%;
-    margin: auto;
-    height: 80%;
+    margin-bottom: 20%;
 }
  .firstHalf ul{
     list-style: circle;

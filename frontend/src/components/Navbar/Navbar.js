@@ -32,20 +32,21 @@ function Navbar() {
 
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className='mobile-nav'>
-                    <li>About Us</li>
-                    <li>Client Reviews</li>
-                    <li>Contact Us</li>
+                <li><Link to='/about-us'>About Us</Link></li>
+                <Link to ='/client-reviews'><li>Client Reviews</li></Link>
+                <Link to ='/contact-us'><li>Contact Us</li></Link>
                 </ul>
             
                 <div classname='mobile-menu-bottom'>
-                    <div className='menu-icons'>
-                        <button>Search</button>
+                    <div className='mobile-menu-icons'>
+                        <Link to='/contact-us'>
+                        <button>Contact Us Today!</button></Link>
                     </div>
-                    <div className='social-icons'>
-                        <FaInstagram classname='icon' onClick={()=> window.open('https://github.com/mszym99/DD')}></FaInstagram>
-                        <FaYoutube classname='icon' onClick={()=> window.open('https://github.com/mszym99/DD')}></FaYoutube>
-                        <FaFacebook classname='icon' onClick={()=> window.open('https://github.com/mszym99/DD')}></FaFacebook>
-                        <FaTiktok classname='icon' onClick={()=> window.open('https://github.com/mszym99/DD')}></FaTiktok>
+                    <div className='social-icons-mobile-menu'>  
+                        <FaInstagram classname='icon' onClick={()=> window.open('https://www.instagram.com/dynamicdetailingofficial/')}></FaInstagram>
+                        <FaYoutube classname='icon' onClick={()=> window.open('https://www.youtube.com/channel/UCYnR3hOx-kJSumWCLiKuN5w')}></FaYoutube>
+                        <FaFacebook classname='icon' onClick={()=> window.open('https://www.facebook.com/DynamicDetailingSpokane')}></FaFacebook>
+                        <FaTiktok classname='icon' onClick={()=> window.open('https://www.tiktok.com/@dynamicdetailingofficial')}></FaTiktok>
                     </div>
                 </div>
             </div>

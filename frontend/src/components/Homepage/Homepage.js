@@ -2,6 +2,8 @@ import React from 'react'
 import './HomepageStyles.css'
 import homepageImg from '../../assets/homepageimg.jpg'
 function Homepage() {
+
+
   return (
     
     <div className='homepage-container'>
@@ -18,7 +20,9 @@ function Homepage() {
                             <li>Our power washing services can remove years of grime, dirt, and stains from your concrete surfaces, leaving them looking like new.  </li>
                             <li>Affordable pricing: We offer competitive pricing for all of our services, so you can enjoy a cleaner and more beautiful space without breaking the bank.</li>
                         </ul>
-                        <img src={homepageImg} alt='homepageImg'></img>
+                        <div className='homepageImage'>
+                        <img src={homepageImg} height=''alt='homepageImg'></img>
+                        </div>
                     </div>
                 </div>
     </section>
