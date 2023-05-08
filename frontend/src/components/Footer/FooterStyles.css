@@ -6,6 +6,8 @@
     border-top: 1px solid #6DA9E4;
     align-items: center;
     background-color: #121212;
+    min-height: 20vh;
+    flex-direction: column;
 }
 .footer-links{
     display:flex;

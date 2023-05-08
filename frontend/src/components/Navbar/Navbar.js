@@ -4,6 +4,7 @@ import {FaFacebook, FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa'
 import {MdRateReview} from 'react-icons/md'
 import {Link, Switch} from 'react-router-dom'
 import DDlongTransparent from '../../assets/DD_long_transparent-11.png'
+import DDSmall from '../../assets/Dynamic_Detailing_RS_Alt.png'
 import './NavbarStyles.css'
 
 function Navbar() {
@@ -22,9 +23,9 @@ function Navbar() {
                 <Link to ='/client-reviews'><li>Client Reviews</li></Link>
                 <Link to ='/contact-us'><li>Contact Us</li></Link>
             </ul>
-            <div className='nav-icons'>
-                <HiOutlineMail className='icon' style={{marginRight: '1rem'}}/>
-                <MdRateReview className='icon' />
+            <div className='DDSmallLogo'>
+                <img src={DDSmall} width='40px' height= 'auto' style={{marginRight: '1rem'}}></img>
+                
             </div>
             <div className='hamburger' onClick={handleNav}>
                 <HiOutlineMenuAlt4 className='icon'/>

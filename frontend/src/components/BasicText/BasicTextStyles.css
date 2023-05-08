@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    
 }
 
 *{
@@ -11,6 +12,7 @@ html, body{
     padding-top: 0px;
     background-color: #121212;
     color: #fff;
+    min-height: 100vh;
 }
 
 .section {

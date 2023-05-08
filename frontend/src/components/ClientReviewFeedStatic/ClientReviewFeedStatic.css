@@ -1,0 +1,31 @@
+.TestCenter{
+    background-color: #121212;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .colClientReview{
+    color: #fff;
+    padding-top: 3%;
+    text-align: center;
+  }
+  
+  .colClientReview p{
+    color:#6DA9E4;
+  }
+  
+  .borderClientReview {
+    border: 3px solid #6DA9E4;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+  
+  

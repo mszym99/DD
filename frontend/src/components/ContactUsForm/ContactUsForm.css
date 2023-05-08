@@ -6,9 +6,11 @@
     width: 40%;
     margin-top: 5%;
     background-color: #121212;
+    padding-top: 1%;
   }
   
   .containerContactForm {
+    
     margin: flex;
     display: flex;
     width: 100%;
